@@ -12,12 +12,12 @@
 
 }
 :root{
-    --bg-color: #191919;
+    --bg-color:   #fff ;
     --secont-bg-color: #101010;
     --main-color:#e9204f;
-    --text-color: #fff;
+    --text-color:black ;
     --second-color:#e4e4e4;
-    --other-color: #c6c9d8bf;
+    --other-color: black;
     
     --h1-font: 7rem;
     --h2-font: 3.5rem;
@@ -201,9 +201,13 @@ span{
 
 }
 .education{
-    background: var(--secont-bg-color);
+    background: var(--bg-color);
 }
 .education-box{
+    margin-bottom: 20px;
+}
+.education-box p{
+    font-size: 23px;
     margin-bottom: 20px;
 }
 .ex h5{
@@ -240,7 +244,7 @@ span{
     margin-bottom: 10px;
 }
 .skill{
-    background: var(--secont-bg-color);
+    background: var(--bg-color);
 }
 .text-center{
     text-align: center;
