@@ -89,10 +89,11 @@ section{
 }
 
 .hero-text h3{
-    color: var(--second-color);
+    /* color: var(--second-color); */
+    color: black;
     font-size: 22px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     word-spacing: 10px;
 
 }
@@ -100,15 +101,17 @@ section{
     font-family:'Dosis',sans-serif;
     font-size: var(--h1-font);
     color: var(--text-color);
-    font-weight: 800;
-    margin-bottom:20px ;
+    font-weight: 100;
+    margin-bottom:10px ;
     letter-spacing: 2px;
 }
 .hero-text h4{
-    color: var(--second-color);
+    /* color: var(--second-color); */
+    color: black;
+
     font-size: 25px;
     font-weight: 600;
-    word-spacing: 15px;
+    word-spacing: 10px;
     margin-bottom: 3.5rem;
 
 }
